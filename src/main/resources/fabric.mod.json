@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "audiooutput",
+  "version": "0.0.4",
+  "name": "AudioOutput",
+  "description": "Change the audio output at runtime",
+  "authors": [
+    "Maximumgame"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/audiooutput/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.maximumgame.audiooutput.AudioOutputMod"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "audiooutput.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.maximumgame.audiooutput.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [],
+  "client": [
+    "SoundOptionsScreenMixin",
+    "SoundManagerAccessor",
+    "SoundEngineMixin"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "audiooutput-refmap.json"
+}
